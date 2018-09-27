@@ -40,7 +40,7 @@ namespace Banking.Models.Domain
             {
                 if (value < 0)
                 {
-                    throw new ArgumentException("Invalid values");
+                    throw new ArgumentException("Invalid value");
                 }
                 else
                 {
